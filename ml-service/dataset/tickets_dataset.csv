@@ -1,0 +1,141 @@
+text,category
+"VPN disconnected and cannot reconnect to corporate network",Network Issues
+"Slow internet speeds across the entire department floor",Network Issues
+"WiFi keeps dropping every 10 minutes on office laptops",Network Issues
+"Cannot access internal company intranet portal through DNS",Network Issues
+"Firewall is blocking outbound traffic to AWS port 443",Network Issues
+"Network latency is extremely high during video conferencing",Network Issues
+"Ethernet port at desk 42 is not providing any IP address",Network Issues
+"DNS resolution failure when trying to reach api.company.internal",Network Issues
+"Remote desktop connection drops immediately after handshake",Network Issues
+"Subnet routing seems broken after the router firmware update",Network Issues
+"Proxy server returns 502 bad gateway for all external websites",Network Issues
+"Unable to ping default gateway 192.168.1.1 from workstation",Network Issues
+"Guest WiFi network SSID is not broadcasting in building B",Network Issues
+"Cisco AnyConnect gives error: Connection attempt failed",Network Issues
+"Network packet loss over 40 percent on the sales floor switch",Network Issues
+"Fiber connection between server room and floor 3 appears down",Network Issues
+"DHCP server is not assigning IP addresses to new devices",Network Issues
+"Internet connection drops whenever large files are transferred",Network Issues
+"Cannot connect to the office VPN while working from home",Network Issues
+"Bandwidth saturation detected on primary WAN link",Network Issues
+"Laptop screen flickers and goes completely black intermittently",Hardware Issues
+"Keyboard keys E and R stopped responding on ThinkPad",Hardware Issues
+"Office printer on 2nd floor has a paper jam and error code 49",Hardware Issues
+"Laptop battery drains completely in less than 20 minutes",Hardware Issues
+"External Dell monitor does not detect HDMI or DisplayPort signal",Hardware Issues
+"CPU cooling fan is making a loud buzzing grinding noise",Hardware Issues
+"Docking station USB ports are not recognizing mouse or keyboard",Hardware Issues
+"Hard drive is clicking loudly and system fails to boot",Hardware Issues
+"Webcam is not detected in device manager or Zoom settings",Hardware Issues
+"Laptop charger cable is frayed and not supplying power",Hardware Issues
+"Touchpad on the Mac laptop is unresponsive to gestures",Hardware Issues
+"Printer toner cartridge needs immediate replacement in HR room",Hardware Issues
+"RAM stick failure detected during hardware diagnostics boot",Hardware Issues
+"Headset microphone produces static sound during calls",Hardware Issues
+"Barcode scanner at warehouse terminal 3 is dead and won't turn on",Hardware Issues
+"Laptop overheats and shuts down automatically after 15 minutes",Hardware Issues
+"Conference room TV display has vertical red lines across panel",Hardware Issues
+"Mouse laser sensor is dead and cursor will not move on screen",Hardware Issues
+"New ergonomic keyboard is not recognized by Windows 11",Hardware Issues
+"Desktop power supply unit smelled of smoke and won't turn on",Hardware Issues
+"Accounting software crashes immediately upon clicking export",Software Issues
+"Excel hangs and freezes when opening files larger than 10MB",Software Issues
+"Photoshop throws runtime error missing MSVCP140.dll",Software Issues
+"Internal ERP system shows blank white screen after login",Software Issues
+"Chrome browser crashes when opening multiple tabs in CRM",Software Issues
+"Git command line tool throws fatal error index corrupted",Software Issues
+"PDF reader crashes whenever attempting to fill out form fields",Software Issues
+"Video editing application fails with OutOfMemory exception",Software Issues
+"Windows update failed with error code 0x80070002",Software Issues
+"Python application crashes with unhandled null pointer reference",Software Issues
+"Custom reporting tool freezes when generating quarterly financial report",Software Issues
+"Antivirus software is flagging internal build tool as malware",Software Issues
+"Spreadsheet macro throws Visual Basic compilation error",Software Issues
+"Node.js development server crashes with segmentation fault",Software Issues
+"Salesforce plugin fails to load inside web browser",Software Issues
+"File compression utility corrupts zip files during extraction",Software Issues
+"Billing software calculation engine produces NaN values",Software Issues
+"Legacy client application is incompatible with Windows 11 update",Software Issues
+"Audio editing software cannot find ASIO sound drivers",Software Issues
+"Code editor extension crashes and causes editor to restart",Software Issues
+"User account is locked out after three failed password attempts",Login and Authentication
+"Cannot reset password because password reset email link expired",Login and Authentication
+"Multi-factor authentication MFA push notification never arrives on phone",Login and Authentication
+"Single Sign-On SSO Okta redirect loop fails to authenticate user",Login and Authentication
+"Google Authenticator 6-digit TOTP code is rejected as invalid",Login and Authentication
+"Temporary password provided by IT helpdesk is not working",Login and Authentication
+"Smart card reader does not recognize employee badge for login",Login and Authentication
+"Active Directory password expired but cannot change from home",Login and Authentication
+"Biometric fingerprint sensor fails authentication repeatedly",Login and Authentication
+"Session expired warning appears every 30 seconds after logging in",Login and Authentication
+"Account disabled message appears when trying to access workstation",Login and Authentication
+"Duo Security push notification says passcode timed out",Login and Authentication
+"OAuth token expired and third-party login with Google fails",Login and Authentication
+"Need administrator credentials to authorize software installation",Login and Authentication
+"User cannot access their account following name change update",Login and Authentication
+"Password policy requires special characters but system rejects them",Login and Authentication
+"Kerberos ticket authentication ticket expired error in terminal",Login and Authentication
+"Forgot security questions answers and locked out of portal",Login and Authentication
+"Hardware YubiKey token is not recognized by browser auth prompt",Login and Authentication
+"Customer portal rejects valid credentials with invalid session token",Login and Authentication
+"PostgreSQL database connection pool exhausted with timeout errors",Database Issues
+"MySQL query taking over 45 seconds to fetch order history",Database Issues
+"Database deadlocks occurring during concurrent customer checkout transactions",Database Issues
+"MongoDB replica set node went down and secondary is not syncing",Database Issues
+"Database migration script failed on foreign key constraint violation",Database Issues
+"SQL Server disk volume running out of space for transaction logs",Database Issues
+"Read replica lag exceeded 600 seconds causing stale data views",Database Issues
+"Redis cache cluster memory reached maximum limit and evicting keys",Database Issues
+"Table corruption reported in production database index table",Database Issues
+"Database backup failed due to insufficient storage on AWS S3",Database Issues
+"Unique constraint violated during user record insertion in database",Database Issues
+"Slow database query execution plan needs index optimization",Database Issues
+"Database connection string credentials refused access after credential rotation",Database Issues
+"Cassandra node compaction process taking excessive CPU and I/O",Database Issues
+"PostgreSQL max connections limit reached rejecting new client sockets",Database Issues
+"Database restore from staging snapshot threw checksum mismatch error",Database Issues
+"Elasticsearch cluster status is red with unassigned primary shards",Database Issues
+"SQL injection protection blocked valid query with syntax exception",Database Issues
+"Database table locked in exclusive mode blocking all write queries",Database Issues
+"Database replication slot dropped causing replication stream disconnection",Database Issues
+"Outlook desktop client is not receiving incoming emails since yesterday",Email and Communication
+"Emails sent to client external domain are bouncing back with error 550",Email and Communication
+"Company emails are getting marked as spam in Gmail and Yahoo",Email and Communication
+"Microsoft Teams calls drop audio and disconnect every few minutes",Email and Communication
+"Slack workspace notifications not arriving on desktop or mobile app",Email and Communication
+"Unable to send email attachments larger than 5 megabytes in Outlook",Email and Communication
+"Exchange mail server queue has over 2000 stuck pending messages",Email and Communication
+"Distribution email list is not forwarding messages to all team members",Email and Communication
+"Shared department mailbox disappeared from Outlook folder pane",Email and Communication
+"SMTP relay authentication failed when sending automated invoices",Email and Communication
+"Email signature template formatting is distorted on mobile devices",Email and Communication
+"Zoom meetings fail to connect with error code 10003",Email and Communication
+"IMAP sync error keeps asking for credentials in Apple Mail",Email and Communication
+"Out of office auto-reply was not sent to external contacts",Email and Communication
+"Incoming emails delayed by up to 4 hours across the company",Email and Communication
+"DKIM and SPF records are failing causing email deliverability issues",Email and Communication
+"VoIP softphone app says SIP registration failed unable to make calls",Email and Communication
+"Conference room Polycom speakerphone has no dial tone",Email and Communication
+"Email archive folder is inaccessible and throws PST corruption error",Email and Communication
+"Group calendar invites are not syncing across team members calendars",Email and Communication
+"Please provide feedback on the upcoming office holiday schedule",Other / Unknown
+"Where can I find the lunch menu for the building cafeteria",Other / Unknown
+"Need a comfortable ergonomic office chair for my workstation",Other / Unknown
+"Hello I need some assistance with general company guidelines",Other / Unknown
+"Can someone help me with general office supply requests",Other / Unknown
+"What time does the building main entrance lock in the evening",Other / Unknown
+"Requesting permission to attend the upcoming design seminar",Other / Unknown
+"Lost my umbrella in the 4th floor conference room yesterday",Other / Unknown
+"How do I submit travel expense reimbursement receipts",Other / Unknown
+"General question regarding corporate gym membership discounts",Other / Unknown
+"Is the parking garage open on public holidays for staff",Other / Unknown
+"Could someone explain the annual appraisal review timeline",Other / Unknown
+"Just wanted to say thank you for the prompt assistance yesterday",Other / Unknown
+"Where is the lost and found department located in our campus",Other / Unknown
+"Requesting clean whiteboard markers for conference room delta",Other / Unknown
+"Help needed but I am not sure which department to talk to",Other / Unknown
+"Inquiry regarding company policy on remote work equipment",Other / Unknown
+"Need directions to the visitor reception desk at building 2",Other / Unknown
+"Can we adjust the thermostat temperature on the 3rd floor west wing",Other / Unknown
+"General inquiry about new employee onboarding welcome kit",Other / Unknown

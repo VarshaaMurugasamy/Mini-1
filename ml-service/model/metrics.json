@@ -1,0 +1,141 @@
+{
+  "model_type": "Multinomial Naive Bayes (TF-IDF)",
+  "accuracy": 0.6786,
+  "weighted_precision": 0.735,
+  "weighted_recall": 0.6786,
+  "weighted_f1": 0.6828,
+  "total_samples": 140,
+  "train_samples": 112,
+  "test_samples": 28,
+  "classes": [
+    "Database Issues",
+    "Email and Communication",
+    "Hardware Issues",
+    "Login and Authentication",
+    "Network Issues",
+    "Other / Unknown",
+    "Software Issues"
+  ],
+  "classification_report": {
+    "Database Issues": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 4.0
+    },
+    "Email and Communication": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "Hardware Issues": {
+      "precision": 0.42857142857142855,
+      "recall": 0.75,
+      "f1-score": 0.5454545454545454,
+      "support": 4.0
+    },
+    "Login and Authentication": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "Network Issues": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4.0
+    },
+    "Other / Unknown": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.5714285714285714,
+      "support": 4.0
+    },
+    "Software Issues": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "accuracy": 0.6785714285714286,
+    "macro avg": {
+      "precision": 0.7350340136054422,
+      "recall": 0.6785714285714286,
+      "f1-score": 0.6827973613687899,
+      "support": 28.0
+    },
+    "weighted avg": {
+      "precision": 0.7350340136054422,
+      "recall": 0.6785714285714286,
+      "f1-score": 0.6827973613687899,
+      "support": 28.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ]
+}
